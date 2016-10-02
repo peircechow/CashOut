@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" href="stylesheet.css">
+	<title>logs/bookstore</title>
+</head>
+<body>
+	<div id="top">
+		<h4><em>Student</em></h4>
+	</div>
+	<div class="dropdown" id="dropdown-button">
+		<button class="btn btn-default btn-sm" type="button" data-toggle="dropdown" id="dropdown-content">
+		<span class="glyphicon glyphicon-option-vertical"></span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-right">
+			<li><a href="#">Login</a></li>
+			<li><a href="{{url}}">Logout</a></li>
+		</ul> 	
+	</div>
+	<div>
+		<ul class="nav nav-tabs" id="down">
+			<li><a href="#">Food</a></li>
+			<li class="active"><a href="#">Bookstore</a></li>
+			<li><a href="#">Misc</a></li>
+		</ul>
+	</div>
+	<div class="box-it">
+		<table>
+			<tr>
+				<th>Item</th>
+				<th>Quantity</th>
+				<th>Total Price</th>
+			</tr>
+			<tr>
+				<td>Highlighter</td>
+				<td>3</td>
+				<td>$3.00</td>
+			</tr>
+			<tr>
+				<td>Foolscap</td>
+				<td>1</td>
+				<td>$4.50</td>
+			</tr>
+			<tr>
+				<td>A4 Notebook</td>
+				<td>2</td>
+				<td>$1.00</td>
+			</tr>
+			<tr>
+				<td>Macbeth</td>
+				<td>1</td>
+				<td>$10.00</td>
+			</tr>
+			<tr>
+				<td>HCL Textbook 4B</td>
+				<td>1</td>
+				<td>$7.50</td>
+			</tr>
+			<tr>
+				<td>Chemistry TYS</td>
+				<td>1</td>
+				<td>$5.00</td>
+			</tr>
+			<tr>
+				<td>Ruler</td>
+				<td>1</td>
+				<td>$0.50</td>
+			</tr>
+			<tr>
+				<td>G2 Pen Refill</td>
+				<td>3</td>
+				<td>$3.30</td>
+			</tr>
+			<tr>
+				<td>Eraser</td>
+				<td>1</td>
+				<td>$0.50</td>
+			</tr>
+		</table>
+	</div>
+	<div id="navigation">
+		<button type="button" class="btn btn-default btn-lg" aria-label="Right Align" id="bot">
+			<a class="tabs" href="#">
+				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+			</a>
+		</button>
+		<button type="button" class="btn btn-default btn-lg" aria-label="Right Align" id="queues">
+			<a class="tabs" href="#">
+				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</a>
+		</button>
+		<button type="button" class="btn btn-default btn-lg" aria-label="Right Align" id="logs">
+			<a class="tabs" href="#">
+				<span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
+			</a>
+		</button>
+		<button type="button" class="btn btn-default btn-lg" aria-label="Right Align" id="savings">
+			<a class="tabs" href="#">
+				<span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+			</a>
+		</button>
+	</div>
+</body>
+</html>
